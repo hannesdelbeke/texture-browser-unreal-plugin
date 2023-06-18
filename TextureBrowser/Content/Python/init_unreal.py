@@ -6,9 +6,9 @@ def create_script_editor_button():
     """Add a tool button to the tool bar"""
 
     section_name = 'Plugins'
-    se_command = 'import my_module;my_module.show()'  # todo replace with your code
-    label = 'My Plugin'
-    tooltip = "my tooltip"
+    se_command = 'import texture_browser;texture_browser.show()'  # todo replace with your code
+    label = 'texture browser'
+    tooltip = "browser textures in unreal"
 
     menus = unreal.ToolMenus.get()
     level_menu_bar = menus.find_menu('LevelEditor.LevelEditorToolBar.PlayToolBar')
@@ -26,10 +26,7 @@ def create_script_editor_button():
     level_menu_bar.add_menu_entry(section_name, entry)
     menus.refresh_all_widgets()
 
-## uncomment to add a button to the toolbar to launch your tool
-## don't forget to modify the function
-# create_script_editor_button()
 
+create_script_editor_button()
 ## TODO add code to add to menu
 
-print("My plugin is enabled")
