@@ -9,7 +9,7 @@ Browse the Unreal installation folder for default resources (icons, shapes, font
 
 ### Install using Plugget (recommended)
 Plugget automatically installs this tool & it's dependencies in the correct location.
-- Install [plugget unreal](https://github.com/plugget/plugget-unreal)
+- Install the [plugget unreal](https://github.com/plugget/plugget-unreal) plugin
 - Search texture browser and click install.
 - restart Unreal
 
