@@ -6,6 +6,13 @@ Browse the Unreal installation folder for default resources (icons, shapes, font
 - Pure Python, no compiling, code also works outside Unreal.
 
 ## Install
+
+### Install using Plugget
+- Install [plugget unreal](https://github.com/plugget/plugget-unreal)
+- Search texture browser and click install.
+- restart Unreal
+
+### Install manuallly
 - pip install the Python dependencies to `...\MyProject\Content\Python\Lib\site-packages` (you can use `--target` with pip install)
   - PySide2
   - unreal-qt (optional)
