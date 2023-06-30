@@ -22,6 +22,6 @@ To not worry about QApp managegement, and automatically style in Unreal dark mod
 - https://github.com/EpicKiwi/unreal-engine-editor-icons markdown snapshot of all editor icons
 
 ## community
-- unreal forum [thread](https://forums.unrealengine.com/t/free-icon-font-browser-plugin/1215762)https://forums.unrealengine.com/t/free-icon-font-browser-plugin/1215762
+- unreal forum [thread](https://forums.unrealengine.com/t/free-icon-font-browser-plugin/1215762)
 
 If this tool is helpfull give it a ⭐ on the [GitHub](https://github.com/hannesdelbeke/texture-browser-unreal-plugin) page at the top right🙏 
