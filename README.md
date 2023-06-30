@@ -10,6 +10,7 @@ Browse the unreal instal folder for default resources (icons, shapes, fonts) whi
 - Just copy the folder in your Unreal project's plugin folder `...\MyProject\Plugins\texture-browser`
 - Restart Unreal
 
+## Dark mode
 To not worry about QApp managegement, and automatically style in Unreal dark mode, you can use [unreal_qt](https://github.com/hannesdelbeke/unreal_qt) 
 
 | dark style | default style |
