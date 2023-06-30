@@ -1,13 +1,12 @@
-search for icons in unreal (pure Python, no compiling)  
-
 ## Engine resource browser
-Browse the unreal instal folder for default resources (icons, shapes, fonts) which can be used in your qt-tools  
-- filter by file type
-- search by name
-
+Browse the Unreal installation folder for default resources (icons, shapes, fonts) to use in your qt-tools.  
+- Filter by file type
+- Search by name
+- Copy the path
+- Pure Python, no compiling, code also works outside Unreal.
 
 ## Install
-- pip install the python dependencies to `...\MyProject\Content\Python\Lib\site-packages` (you can use `--target` with pip install)
+- pip install the Python dependencies to `...\MyProject\Content\Python\Lib\site-packages` (you can use `--target` with pip install)
   - PySide2
   - unreal-qt (optional)
 - Just copy the folder in your Unreal project's plugin folder `...\MyProject\Plugins\texture-browser`
@@ -26,10 +25,10 @@ GitHub repos:
   - [unreal-engine-editor-icons](https://github.com/EpicKiwi/unreal-engine-editor-icons) thumnails & names of all editor icons in your browser
 
 Reference
-- unreal's [content browser docs](https://docs.unrealengine.com/4.26/en-US/Basics/ContentBrowser/UI/) are a good reference
+- Unreal's [content browser docs](https://docs.unrealengine.com/4.26/en-US/Basics/ContentBrowser/UI/) are a good reference
 
 
 ## community
-- unreal forum [thread](https://forums.unrealengine.com/t/free-icon-font-browser-plugin/1215762)
+- Unreal forum [thread](https://forums.unrealengine.com/t/free-icon-font-browser-plugin/1215762)
 
 If this tool is helpfull give it a ⭐ on the [GitHub](https://github.com/hannesdelbeke/texture-browser-unreal-plugin) page at the top right🙏 
