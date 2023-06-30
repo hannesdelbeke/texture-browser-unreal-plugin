@@ -7,7 +7,7 @@ Browse the unreal instal folder for default resources (icons, shapes, fonts) whi
 
 
 ## Install
-- install the python dependencies
+- pip install the python dependencies to `...\MyProject\Content\Python\Lib\site-packages` (you can use `--target` with pip install)
   - PySide2
   - unreal-qt (optional)
 - Just copy the folder in your Unreal project's plugin folder `...\MyProject\Plugins\texture-browser`
