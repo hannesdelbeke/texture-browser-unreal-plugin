@@ -1,9 +1,10 @@
-search for icons in unreal (pure Python, no compiling)
+search for icons in unreal (pure Python, no compiling)  
 
 ## Engine resource browser
-Browse the unreal instal folder for default resources (icons, shapes, fonts) which can be used in your qt-tools
+Browse the unreal instal folder for default resources (icons, shapes, fonts) which can be used in your qt-tools  
 - filter by file type
 - search by name
+
 
 ![image](https://user-images.githubusercontent.com/3758308/191581830-d0a527ec-cd5a-4724-9454-60f418bd93f0.png)
 
@@ -11,7 +12,10 @@ Browse the unreal instal folder for default resources (icons, shapes, fonts) whi
 - Just copy the folder in your Unreal project's plugin folder `...\MyProject\Plugins\texture-browser`
 - Restart Unreal
 
-It's recommended to use this together with [unreal_qt](https://github.com/hannesdelbeke/unreal_qt)
+Use this with [unreal_qt](https://github.com/hannesdelbeke/unreal_qt) to get matching Unreal dark mode and QApp managegement.  
+
+<img src="https://github.com/hannesdelbeke/texture-browser-unreal-plugin/assets/3758308/29b35d56-da78-4263-b8bb-08c24c072ae9" width="300"/>
+
 
 ### Similar projects
 - https://github.com/sirjofri/SlateIconBrowser C++ icon browser 
