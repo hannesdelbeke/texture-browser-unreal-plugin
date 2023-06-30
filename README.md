@@ -23,6 +23,7 @@ To not worry about QApp managegement, and automatically style in Unreal dark mod
 ### Similar projects
 - https://github.com/sirjofri/SlateIconBrowser C++ icon browser, requires compiling  
 - https://github.com/EpicKiwi/unreal-engine-editor-icons markdown snapshot of all editor icons
+- unreal's [content browser docs](https://docs.unrealengine.com/4.26/en-US/Basics/ContentBrowser/UI/) are a good reference
 
 ## community
 - unreal forum [thread](https://forums.unrealengine.com/t/free-icon-font-browser-plugin/1215762)
