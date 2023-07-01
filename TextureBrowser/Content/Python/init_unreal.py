@@ -17,7 +17,7 @@ def create_script_editor_button():
     entry = unreal.ToolMenuEntry(type=unreal.MultiBlockType.TOOL_BAR_BUTTON)
     entry.set_label(label)
     entry.set_tool_tip(tooltip)
-    entry.set_icon('EditorStyle', 'DebugConsole.Icon')
+    entry.set_icon('EditorStyle', 'Icons.Download')
     entry.set_string_command(
         type=unreal.ToolMenuStringCommandType.PYTHON,
         custom_type=unreal.Name(''),  # not sure what this is
