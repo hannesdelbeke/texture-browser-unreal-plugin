@@ -25,11 +25,6 @@ class IconWidget(QWidget):
         self.tab_widget = QtWidgets.QTabWidget()
         image_types = ["png", "bmp", "svg", "tps", "ttf"]
 
-        # check if a stylehsheet is set
-        has_a_stylesheet = thumbnail_list.styleSheet() == ""
-        if has_a_stylesheet:
-            # set background to dark grey, text to white
-            thumbnail_list.setStyleSheet("background-color: rgb(50, 50, 50); color: rgb(255, 255, 255);")
 
         self.lists = []
         for img_type in image_types:
@@ -40,6 +35,12 @@ class IconWidget(QWidget):
                 thumbnail_list.setViewMode(QtWidgets.QListView.IconMode)
                 thumbnail_list.setIconSize(QtCore.QSize(64, 64))
 
+            # check if a stylehsheet is set
+            has_a_stylesheet = thumbnail_list.styleSheet() == ""
+            if has_a_stylesheet:
+                # set background to dark grey, text to white
+                thumbnail_list.setStyleSheet("background-color: rgb(50, 50, 50); color: rgb(255, 255, 255);")
+                
             thumbnail_list.setDragEnabled(False)
 
             self.lists.append(thumbnail_list)
