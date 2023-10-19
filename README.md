@@ -33,6 +33,7 @@ GitHub repos:
   - [SlateIconBrowser](https://github.com/sirjofri/SlateIconBrowser)  C++ icon browser, requires compiling  
   - [unreal-engine-editor-icons](https://github.com/EpicKiwi/unreal-engine-editor-icons) thumnails & names of all editor icons in your browser
   - [maya-qt-img-resource-browser](https://github.com/leocov-dev/maya-qt-img-resource-browser) Similar, but for Maya
+
 Reference
 - Unreal's [content browser docs](https://docs.unrealengine.com/4.26/en-US/Basics/ContentBrowser/UI/) are a good reference
 
